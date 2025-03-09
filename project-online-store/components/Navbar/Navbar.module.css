@@ -1,0 +1,41 @@
+.container_g {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.link {
+    font-size: 18px;
+}
+.link:hover {
+    color: rgb(29, 29, 206);
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 997px) {
+    .links {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 576px) {
+
+}
